@@ -31,7 +31,7 @@
               <a id='bothref0' href="#" onclick="javascript:move_table(0);">1</a>
               <a id='bothref1' href="#" onclick="javascript:move_table(1);">2</a>
               <a id='bothref2' href="#" onclick="javascript:move_table(2);">3</a>
-              <a id='bothref3' href="#" onclick="javascript:move_table(3);">4</a>
+             
              
               <a id='bothrefnext' href="#" onclick="javascript:move_table(cur_pos+1);">&gt;&gt;</a>
             </p>
@@ -66,8 +66,8 @@
                           "18.mp4",
                           "19.mp4"
                 ];
-              for (let i = 0; i<5; ++i){
-                var idx=i+page*5;
+              for (let i = 0; i<6; ++i){
+                var idx=i+page*6;
                 document.getElementById("tab"+i).innerHTML='<video controls autoplay><source src="mose/'+names[idx]+'" type="video/mp4"></video>';
               }
               for (let i = 0; i<6; ++i){
